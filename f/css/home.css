@@ -1,0 +1,44 @@
+/* style.css
+ * Main style sheet for the BCA Bio Club homepage... */
+ 
+html, body{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color: #bfbfbf;
+	text-align: center;
+}
+
+#top{
+	width: auto;
+	height: 200px;
+	padding: 10px;
+	box-shadow: inset 0px -1px 5px #242424;
+	margin-left: 0px;
+	margin-top: 0px;
+	background-color: #4f4f4f;
+}
+
+#top_inside{
+	font: bold 60px Arial;
+	color: #bfbfbf;
+	text-align: left;
+	width: 900px;
+	height: 200px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+testing_div{
+	width: 80px;
+	height: 80px;
+	background-color: purple;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+
