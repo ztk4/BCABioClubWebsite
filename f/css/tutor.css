@@ -1,0 +1,35 @@
+/* style.css
+ * Main style sheet for the BCA Bio Club tutors listing page */
+ 
+html, body{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font: bold 20px Arial;
+	color: #003300;
+	background-color: #8AA37B;
+	text-align: center;
+}
+
+#top{
+	width: auto;
+	height: 200px;
+	padding: 10px;
+	box-shadow: inset 0px -1px 5px #242424;
+	margin-left: 0px;
+	margin-top: 0px;
+	background-color: #003300;
+}
+
+#top_inside{
+	font: bold 60px Arial;
+	color: #8AA37B;
+	text-align: left;
+	width: 900px;
+	height: 200px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
