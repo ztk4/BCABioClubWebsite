@@ -23,12 +23,12 @@ $(document).ready(function() {
 	});
     	$('#content').css("display", "none");
  
-	$('#content').fadeIn(2000);
+	$('#content').fadeIn(500);
  
     	$('a').click(function(event){
         	event.preventDefault();
         	linkLocation = this.href;
-        	$('#content').fadeOut(1000, redirectPage);      
+        	$('#content').fadeOut(500, redirectPage);      
     	});
          
     	function redirectPage() {
