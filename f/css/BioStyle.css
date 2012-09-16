@@ -1,3 +1,6 @@
+body {
+	background-color: #8AA37B
+}
 #navbar {
 	position: fixed;
 	top: -15px;
@@ -74,6 +77,12 @@
 .subNavbox:active {
 	background-color: #111;
 	color: #F0F0F0;
-	text-shadow: 2px 2px 3px #B0B0B0;
-	
+	text-shadow: 2px 2px 3px #B0B0B0;	
+}
+p {
+	margin-top: 50px;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	color: #D0D0D0;
+	text-shadow: 2px 2px 3px #000;
 }
